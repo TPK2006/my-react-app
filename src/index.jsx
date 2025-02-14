@@ -29,6 +29,7 @@ export function Header({ sidebarOpen, setSidebarOpen }) {
   )
 }
 
+
 export function Sidebar({ sidebarOpen }) {
   return (
     <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
